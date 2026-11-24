@@ -12,6 +12,13 @@ The heap holds at most one node per list: each list's current head. Pop the smal
 
 **Complexity:** O(N log k) time, O(k) heap.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
